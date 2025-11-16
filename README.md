@@ -1,11 +1,36 @@
-# Session X — Course Y
+# Session 9 and 10 -  Mediation Fallacy Inference and Causality
 
-This repository contains the materials for **Session X** of *Course Y*.  
+This repository contains the materials for **Week 5** of *Inference and Causality*.  
 - Slides: see [`slides/`](./slides/) folder  
 - Notebooks: see [`notebooks/`](./notebooks/) folder 
----
 
-## 📑 Session Outline
+---
+## Session Outline
+This week focuses on common **causal fallacies** that arise when we condition on the wrong variables or fail to account for causal structure. Understanding these fallacies is essential for proper causal inference and avoiding misleading conclusions.
+
+### Topics Covered
+
+**1. Mediation Fallacy**
+- Understanding the difference between total effects and direct effects
+- Why adjusting for mediators blocks causal pathways
+- Practical example: Education → Income → Health
+- When to control for mediators (and when not to)
+
+**2. Collider Bias and Survivorship Bias**
+- How conditioning on a collider creates spurious correlations
+- The danger of analyzing only selected samples (survivors, successful cases)
+- Real-world example: Success stories and risk-taking
+- Why we shouldn't draw causal conclusions from "winner" datasets
+
+**3. Simpson's Paradox**
+- Reversal of associations when aggregating vs. stratifying by confounders
+- Classic kidney stone treatment example
+- The importance of adjusting for confounding variables
+
+**4. Berkson's Paradox**
+- Spurious negative correlations induced by selection bias
+- Hospital admission example: conditioning on hospitalization
+- Understanding why independent causes appear correlated in selected samples
 
 
 ---
